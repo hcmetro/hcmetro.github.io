@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<SCRIPT id="allow-copy_script">(function agent() { let unlock = false document.addEventListener('allow_copy', (event) => { unlock = event.detail.unlock }) const copyEvents = [ 'copy', 'cut', 'contextmenu', 'selectstart', 'mousedown', 'mouseup', 'mousemove', 'keydown', 'keypress', 'keyup', ] const rejectOtherHandlers = (e) => { if (unlock) { e.stopPropagation() if (e.stopImmediatePropagation) e.stopImmediatePropagation() } } copyEvents.forEach((evt) => { document.documentElement.addEventListener(evt, rejectOtherHandlers, { capture: true, }) }) })()</SCRIPT>
+<!--  Created By http://www.zhetao.com/sitemapcreator,  URLs: 3 Generated at: 2024-08-20 13:28:44  -->
+<url>
+<loc>https://hcmetro.github.io/</loc>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://hcmetro.github.io/index.html</loc>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://hcmetro.github.io/about.html</loc>
+<priority>1.00</priority>
+</url>
+</urlset>
